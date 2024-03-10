@@ -10,7 +10,7 @@ function Navbar(){
             <div className="Navbar-right">
                 <a href="https://notes-app-reactjs-ten.vercel.app/journal">Journal</a>
                 <a href="#">Exercising</a>
-                <a href="https://notes-app-reactjs-ten.vercel.app/consult">Consultant</a>
+                <a href="https://notes-app-reactjs-ten.vercel.app/">Consultant</a>
                 <a href="https://notes-app-reactjs-ten.vercel.app/doctors">Doctors</a>
                 <a href="#" className="login">Login </a>
                 <div className="Navbar-Login">

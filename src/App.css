@@ -1,0 +1,223 @@
+/*Introduction=========================================================================================*/
+
+.Intro-container {
+    display: flex;
+    padding-left: 5%;
+}
+
+.Intro-text-part {
+    margin-left: 30px;
+    margin-top: 15%;
+}
+
+.Intro-text-part .Intro-Image img {
+    width: 100%; 
+    height: auto; 
+}
+
+.Intro-text-part .Intro-heading p {
+    font-size: 1.5vw;
+}
+
+.Intro-text-part .Intro-subheading p {
+    font-size: 1.5vw;
+}
+
+.Intro-text-part button {
+    background: rgb(255, 255, 255);
+    border-radius: 34px;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    color: #409320;
+    cursor: pointer;
+}
+
+.Intro-text-part button:hover {
+    color: white;
+    background-color: #409320;
+}
+
+.Intro-image-part img {
+    height: 80%;
+}
+
+@media (max-width: 768px) {
+    .Intro-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .Intro-text-part {
+        margin-top: 20px; 
+    }
+
+    .Intro-text-part .Intro-heading p,
+    .Intro-text-part .Intro-subheading p {
+        font-size: 14px; 
+        align-items: center;
+    }
+
+    .Intro-text-part button {
+        width: 150px; 
+        font-size: 14px;
+    }
+
+    .Intro-image-part img {
+        height: auto;
+        width: 50%;
+        align-items: center;
+    }
+}
+
+/*Hero================================================================*/
+.Hero-entire {
+    display: flex;
+    gap: 10%;
+}
+
+.Hero-entire .Hero-right-part img {
+    padding: 85px 0 0 0 ;
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+}
+
+.Hero-entire .Hero-left-part img {
+    width: 80%;
+    height: auto;
+    padding-right: 100px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+    .Hero-entire {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Hero-entire .Hero-right-part img {
+        width: 50%;
+        padding-top: -20%;
+        padding-left: 20%;
+    }
+
+    .Hero-entire .Hero-left-part img {
+        width: 50%;
+        margin-top: 0;
+        padding-left: 20%;
+    }
+}
+
+
+/* ==> MARKET <========================================================================================  */
+.Market-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Market-text {
+    text-align: center;
+    font-family:inter;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+ .Market-images img {
+    height: auto;
+    width: 30%;
+    gap: 10%;
+}
+
+@media (max-width: 600px) {
+    .Market-container{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        flex:1;
+    }
+
+    .Market-container .Market-images{
+        flex-direction: column;
+    }
+}
+
+/* ==> FEATURES <==========================================================================================*/
+.Feature-container .Feature-text-part p {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Feature-container .Feature-image-part img {
+    padding: 0 2%;
+    width: 21%;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+    .Feature-container .Feature-image-part img {
+        width: auto;
+        flex-direction: column;
+        margin: 12px 0;
+    }
+}
+
+
+/* ==> SPONSORS <=============================================== */
+
+.Sponsers-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.Sponsers-container .proverbs {
+    padding-left: -300px;
+    
+}
+
+.Sponsers-container .proverbs .proverb-card {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 80px;
+    border: 2px solid #ccc;
+    width: 125%;
+    height: auto;
+}
+
+.Sponsers-container .proverbs .proverb-card p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Sponsers-image img {
+    width: 80%;
+    height: auto;
+    padding-left: 100px;
+}
+
+@media (max-width: 600px) {
+    .Sponsers-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proverbs {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .Sponsers-image {
+        align-items: center;
+    }
+}
